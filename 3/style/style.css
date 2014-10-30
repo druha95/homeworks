@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer, section, nav{
+    display: block;
+}
+
+body{
+    background-color: rgba(10, 10, 10, .45);
+}
+
+h2{
+    font-size: 27pt;
+    font-style: italic;
+}
+
+#about p:first-letter{
+    font-size: 40pt;
+}
+
+header a{
+    color: darkred;
+}
+
+header a:hover{
+    background-color: darkgreen;
+}
+
+footer a{
+    color: darkgreen;
+}
+
+footer a:hover{
+    background-color: darkred;
+}
+
+.faq{
+    background-color: rgb(12,12,12);
+    color: white;
+    font-size: 18pt;
+}
+
+#about p:first-of-type:before{
+    content: "Before";
+    font-size: 32pt;
+}
+
+#about p:nth-of-type(2):after{
+    content: "After";
+    font-size: 32pt;
+}
